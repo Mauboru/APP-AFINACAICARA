@@ -11,8 +11,8 @@ export default function SimpleScreen() {
       <Text style={styles.message}>{message}</Text>
       <Button title="Iniciar Afinação" onPress={() => setMessage('Afinando...')} color="#00796B" />
       <View style={styles.footerContainer}>
-        <Text style={styles.footer} onPress={() => Linking.openURL('https://seuportfolio.com')}>
-          Desenvolvido por Josué Henrique
+        <Text style={styles.footer} onPress={() => Linking.openURL('https://josuashenrique.site')}>
+          Desenvolvido por TecnoMaub
         </Text>
       </View>
     </View>
